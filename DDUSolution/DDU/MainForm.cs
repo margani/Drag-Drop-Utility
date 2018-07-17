@@ -24,8 +24,6 @@ namespace DDU
         {
             DroppedFiles = (e.Data.GetData(DataFormats.FileDrop) as string[]).Select(o => new FileInfo(o)).ToArray();
 
-            lblStatus.Text = $"{DroppedFiles.Length} file(s) dropped";
-
             var menuItems = cmActions.Items.OfType<ToolStripMenuItem>().ToList();
 
             menuItems.ForEach(o => o.Enabled = false);
@@ -40,9 +38,6 @@ namespace DDU
 
         private void pnlDrop_DragEnter(object sender, DragEventArgs e)
         {
-            var formats = e.Data.GetFormats();
-
-            lblStatus.Text = $@"Formats: {string.Join(",", formats)}";
             e.Effect = DragDropEffects.All;
         }
 
