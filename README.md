@@ -1,5 +1,5 @@
 # Drag-Drop-Utility
 This is a simple app to enable some features when dragging and dropping anything into the blank form.
 
-[![Build status](https://{your-vsts-organization}.visualstudio.com/{your-vsts-project}/_apis/build/status/{build-definition-name}?branch=master)](https://{your-vsts-organization}.visualstudio.com/{your-vsts-project}/_build/latest?definitionId={8}&branch=master)]
+[![Build status](https://margani.visualstudio.com/Drag%20Drop%20Utility/_apis/build/status/Drag%20Drop%20Utility-.NET%20Desktop-CI?branch=master)](https://margani.visualstudio.com/Drag%20Drop%20Utility/_build/latest?definitionId=8&branch=master)]
 
